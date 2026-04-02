@@ -316,4 +316,18 @@ h3 {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+    .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
 }
